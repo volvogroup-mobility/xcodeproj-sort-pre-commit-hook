@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/noahsark769/xcodeproj-sort-pre-commit-hook'
   s.required_ruby_version = '>= 2.0.0'
   s.executables   = %w(xcodeproj-sort)
-  s.add_runtime_dependency 'xcodeproj', '~> 1.23.0'
+  s.add_runtime_dependency 'xcodeproj', '~> 1.25.0'
   s.add_runtime_dependency 'claide', '~> 1.0'
   s.metadata    = { "source_code_uri" => "https://github.com/noahsark769/xcodeproj-sort" }
 end
