@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'xcodeproj-sort'
-  s.version     = '1.1.3'
+  s.version     = '1.1.1+volvo1'
   s.licenses    = ['MIT']
   s.summary     = "Sort your xcodeproj file in a pre-commit hook."
   s.description = %(
@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
     The script modifies the file and prints a message only if the file is modified, which
     makes it good for use in a pre-commit hook.
   ).strip.gsub(/\s+/, ' ')
-  s.authors     = ["Noah Gilmore"]
-  s.email       = 'noah.w.gilmore@gmail.com'
+  s.authors     = ["Noah Gilmore", "Timothy Rundle"]
+  s.email       = 'support.mcoe@volvo.com'
   s.files       = %w(README.md) + Dir['lib/**/*.rb']
-  s.homepage    = 'https://github.com/noahsark769/xcodeproj-sort-pre-commit-hook'
+  s.homepage    = 'https://github.com/volvogroup-mobility/xcodeproj-sort-pre-commit-hook'
   s.required_ruby_version = '>= 2.0.0'
   s.executables   = %w(xcodeproj-sort)
   s.add_runtime_dependency 'xcodeproj', '~> 1.25.0'
   s.add_runtime_dependency 'claide', '~> 1.0'
-  s.metadata    = { "source_code_uri" => "https://github.com/noahsark769/xcodeproj-sort" }
+  s.metadata    = { "source_code_uri" => "https://github.com/volvogroup-mobility/xcodeproj-sort" }
 end

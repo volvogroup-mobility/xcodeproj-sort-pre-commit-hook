@@ -15,8 +15,8 @@ If you haven't set up pre-commit, check out [pre-commit's installation docs](htt
 Add the following to your `.pre-commit-config.yaml`:
 
 ```
--   repo: git://github.com/noahsark769/xcodeproj-sort-pre-commit-hook
-    rev: v1.1.3
+-   repo: git://github.com/volvogroup-mobility/xcodeproj-sort-pre-commit-hook
+    rev: v1.1.1+volvo1
     hooks:
     - id: xcodeproj-sort
       args: [--groups-position=above]
@@ -55,7 +55,7 @@ xcodeproj-sort MyProject.xcodeproj/project.pbxproj
 
 I use this in the development of [Trestle](https://itunes.apple.com/us/app/trestle-the-new-sudoku/id1300230302?mt=8) and [CIFilter.io](https://itunes.apple.com/us/app/cifilter-io/id1457458557?mt=8), but your mileage might vary. If you notice a bug or have a feature request, please open a github issue or submit a pull request. It's best to open issues first so that work isn't duplicated.
 
-Also, feel free to reach out [on Twitter](https://twitter.com/noahsark769) if you have any questions.
+Also, feel free to reach out [on Twitter](https://twitter.com/volvogroup-mobility) if you have any questions.
 
 ## Development
 
