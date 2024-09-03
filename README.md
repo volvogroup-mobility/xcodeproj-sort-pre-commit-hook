@@ -16,7 +16,7 @@ Add the following to your `.pre-commit-config.yaml`:
 
 ```
 -   repo: git://github.com/volvogroup-mobility/xcodeproj-sort-pre-commit-hook
-    rev: v1.1.1+volvo1
+    rev: v1.1.2-volvo1
     hooks:
     - id: xcodeproj-sort
       args: [--groups-position=above]
